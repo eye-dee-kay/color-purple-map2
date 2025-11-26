@@ -1,6 +1,6 @@
 @font-face {
   font-family: "regular";
-  src: url("./fonts/caudex-latin-400-normal.woff2");
+  src: url("../fonts/caudex-latin-400-normal.woff2");
 }
 
 window,
@@ -8,9 +8,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #221133;
-}
-
-.bg {
 }
 
 .title {
@@ -24,7 +21,7 @@ body {
 .map {
   width: 1500px;
   height: 1182px;
-  background-image: url(./images/map.jpg);
+  background-image: url(../images/map.jpg);
   margin: 0 auto;
 }
 
