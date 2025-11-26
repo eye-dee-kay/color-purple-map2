@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "regular";
+  src: url("/fonts/caudex-latin-400-normal.woff2");
+}
+
+window,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #221133;
+}
+
+.bg {
+}
+
+.title {
+  text-align: center;
+  font-family: regular;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.map {
+  width: 1500px;
+  height: 1182px;
+  background-image: url(/images/map.jpg);
+  margin: 0 auto;
+}
+
+.tip {
+  position: absolute;
+}
+
+.tipLabel {
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  font-family: regular;
+  padding: 10px 15px;
+  width: fit-content;
+  cursor: pointer;
+  /* position: absolute; */
+}
+
+.tipContent {
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  font-family: regular;
+  padding: 10px 15px;
+  width: 200px;
+  position: absolute;
+  visibility: hidden;
+  cursor: pointer;
+  overflow-y: auto;
+  max-height: 180px;
+}
+
+.tip:hover .tipContent {
+  visibility: visible;
+}
