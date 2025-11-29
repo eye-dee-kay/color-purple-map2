@@ -19,8 +19,8 @@ body {
 }
 
 .map {
-  width: 2000px;
-  height: 1047px;
+  width: 862px;
+  height: 686px;
   background-image: url(../images/map.jpg);
   margin: 0 auto;
 }
